@@ -1,0 +1,8 @@
+.postOptions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.postOptions > div {
+  margin-left: 2px;
+}

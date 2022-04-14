@@ -1,0 +1,59 @@
+.sidebar {
+  flex: 0.2;
+  top: 80px;
+  position: sticky;
+  margin: 1vw;
+}
+.sidebar__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+.sidebar__top > img {
+  object-fit: contain;
+  width: 100%;
+  margin-bottom: -2.5vh;
+}
+.sidebar__top_avatar {
+  width: 55px !important;
+  height: 55px !important;
+  border: 2px solid white;
+}
+.sidebar__top > h2 {
+  color: black;
+  margin-bottom: -2vh;
+}
+.sidebar__top > h4 {
+  color: gray;
+}
+.sidebar__stats {
+  background: white;
+}
+.sidebar__stat {
+  display: flex;
+  justify-content: space-evenly;
+  color: gray;
+  margin-top: -1vh;
+}
+.sidebar__statNumber {
+  color: blueviolet;
+}
+.sidebar__bottom {
+  border-radius: 4px;
+  background: white;
+}
+.sidebar__bottom > h3 {
+  text-align: center;
+  padding: 3px;
+  border: 1px solid lightgrey;
+  margin-bottom: -0.1vh;
+}
+.recentItem {
+  display: flex;
+  margin-left: 2vw;
+}
+.recentItem__hastags {
+  color: blueviolet;
+  margin-right: 1vw;
+}

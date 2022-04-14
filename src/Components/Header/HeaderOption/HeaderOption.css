@@ -1,0 +1,17 @@
+.headeroption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 5px 7px;
+  cursor: pointer;
+}
+.headeroption__title {
+  margin-top: -2px;
+}
+.headerOption__avatar {
+  height: 25px !important;
+  width: 25px !important ;
+  object-fit: contain;
+  cursor: pointer;
+}

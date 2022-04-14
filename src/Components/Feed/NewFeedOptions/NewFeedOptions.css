@@ -1,0 +1,9 @@
+.newFeed__options {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.newFeed__options:hover {
+  background: whitesmoke;
+}

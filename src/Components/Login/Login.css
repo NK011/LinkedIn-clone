@@ -1,0 +1,61 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login > img {
+  margin-top: 5vh;
+  margin-bottom: -11vh;
+  width: 25vw;
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+  border-top: 1px solid blueviolet;
+  border-left: 1px solid blueviolet;
+  border-right: 1px solid blueviolet;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  border-bottom-left-radius: 1vw;
+  border-bottom-right-radius: 1vw;
+  border-bottom: 1px solid blueviolet;
+  border-left: 1px solid blueviolet;
+  border-right: 1px solid blueviolet;
+}
+
+.login > form > input {
+  margin-top: 1.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
+  height: 1vh;
+  padding: 0.7vw;
+  font-size: medium;
+  font-weight: 700;
+  outline-color: blueviolet;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.login > form > button {
+  margin: 2vh auto;
+  width: 15vw;
+  height: 5vh;
+  color: white;
+  background: rgb(6, 110, 151);
+  font-size: medium;
+  border-radius: 5%;
+}
+
+.login > form > p {
+  margin: auto;
+  margin-bottom: 2vw;
+}
+
+.login > form > p > span {
+  color: blueviolet;
+  cursor: pointer;
+}
