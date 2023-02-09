@@ -41,7 +41,6 @@ function Login() {
         }
 
         auth.createUserWithEmailAndPassword(email, password).then( (userAuth)=>{
-            console.log(userAuth)
             userAuth.user.updateProfile({
                 displayName: name,
                 photoURL: imaageUrl
